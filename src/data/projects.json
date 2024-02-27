@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Currency Project",
+        "imageSrc": "projects/project.png",
+        "description": "It is a currency converter project in which API is used to fetch the data",
+        "skills":["React"],
+        "source":"https://github.com/piav19/React_CurrencyProject"
+    },
+
+    {
+        "title": "Weather App",
+        "imageSrc": "projects/project.png",
+        "description": "It is a Weather Application in which API is used to fetch the weather",
+        "skills":["React"],
+        "source":"https://github.com/piav19/React_Weather"
+    }
+]
