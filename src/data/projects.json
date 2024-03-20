@@ -4,7 +4,8 @@
         "imageSrc": "projects/project.png",
         "description": "It is a currency converter project in which API is used to fetch the data",
         "skills":["React"],
-        "source":"https://github.com/piav19/React_CurrencyProject"
+        "source":"https://github.com/piav19/React_CurrencyProject",
+         "demo":""
     },
 
     {
@@ -12,6 +13,7 @@
         "imageSrc": "projects/project.png",
         "description": "It is a Weather Application in which API is used to fetch the weather",
         "skills":["React"],
-        "source":"https://github.com/piav19/React_Weather"
+        "source":"https://github.com/piav19/React_Weather",
+        "demo":"https://cozy-arithmetic-19db77.netlify.app"
     }
 ]

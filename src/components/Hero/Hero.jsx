@@ -9,7 +9,7 @@ export default function Hero(){
             <p className={styles.description}>I am a front-end developer, proficient in React, JavaScript, HTML and CSS.</p>
             <a href="mailto:ypiyush838@gmail.com" className={styles.contactBtn}>Contact me</a>
         </div>
-        <img src={getImageUrl("hero/myImage.jpg")} alt="my Image" className={styles.myImg}/>
+        <img src={getImageUrl("hero/myImage2.jpg")} alt="my Image" className={styles.myImg}/>
         <div className={styles.topBlur}></div>
         <div className={styles.bottomBlur}></div>
         </section>
