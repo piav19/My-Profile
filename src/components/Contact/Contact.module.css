@@ -1,67 +1,54 @@
-@import "../../vars.css";
+/* Contact.module.css */
 
 .container {
-  color: var(--color-text);
-  margin-top: 120px;
-  background-color: var(--color-secondary);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  border-radius: 1rem;
-  padding: 58px 10%;
-  gap: 10px;
+  padding: 60px 0;
+  text-align: center;
 }
 
 .text h2 {
-  font-size: 80px;
-  font-weight: 700;
-  letter-spacing: 4px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: white;
 }
 
 .text p {
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 40px;
+  color: white;
 }
 
 .links {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  list-style: none;
-  gap: 26px;
+  justify-content: center;
+  gap: 20px;
+ 
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 20px;
+}
+
+.link img {
+  width: 30px;
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .link a {
-  color: var(--color-text);
-  text-decoration: none;
+  color: white;
   font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  
 }
 
-@media screen and (max-width: 830px) {
-  .container {
-    flex-direction: column;
-    gap: 23px;
-  }
+.link img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(72, 73, 30, 0.496);
+}
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .links {
-    align-items: center;
-  }
+.link a:hover {
+  color: #007bff; /* Change to your preferred hover color */
+  box-shadow: 0 10px 20px rgba(72, 73, 30, 0.496);
 }

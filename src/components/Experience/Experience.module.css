@@ -48,6 +48,11 @@
   
   .skillImageContainer img {
     width: 75px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skillImageContainer img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
   }
   
   .skill p {
@@ -72,6 +77,24 @@
     background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
     border-radius: 10px;
     padding: 24px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  .historyItem::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0; /* Initially hidden */
+  }
+  
+  .historyItem:hover::before {
+    opacity: 1; /* Show the background color on hover */
   }
   
   .historyItem img {
@@ -80,6 +103,8 @@
   
   .historyItemDetails {
     font-family: var(--font-roboto);
+    position: relative;
+    z-index: 1; /* Ensure details are above the pseudo-element */
   }
   
   .historyItemDetails h3 {
