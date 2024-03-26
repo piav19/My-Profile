@@ -52,3 +52,17 @@
   color: #007bff; /* Change to your preferred hover color */
   box-shadow: 0 10px 20px rgba(72, 73, 30, 0.496);
 }
+@media screen and (max-width: 830px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 5%; /* Further reduced padding for smaller screens */
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+}
